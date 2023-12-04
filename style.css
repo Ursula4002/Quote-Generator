@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Ubuntu+Mono&display=swap');
+
+
+
+body{
+    background-color: rgb(151, 146, 146);
+}
+
+.main-container{
+    border-radius: 10px;
+    align-self: center;
+    display: flex; 
+}
+
+.container {
+background-color: #75a7eda8;
+
+    width: 500px;
+    min-height: 500px;
+    font-size: 1rem;
+    margin: auto;
+    padding: 20px;  
+}
+
+
+
+h1{
+    font-family:'Cormorant Garamond', serif; 
+    color: rgb(235, 235, 167);
+}
+
+h1, p{
+    text-align: center;
+}
+
+.btn{
+    border-radius: 10px;
+    align-self: center;
+    display: flex; 
+    width: 500px;
+    /* background-color: purple; */
+}
+
+button{
+    border-radius: 10px;
+    align-self: center;
+    margin: auto;
+}
+
+
+textarea {
+    resize: none;
+    padding: 10px;
+    margin: 50px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    /* box-shadow: 1px 1px 1px #999; */
+    /* background-color: #9ec5fca8; */
+  }
+
+.display-quote-container{
+    background-color: rgb(206, 222, 253);
+    margin: auto;
+    padding: 30px;
+    height: 95px; 
+    width:55%;
+}
+
+#writeAQuote{
+    display: flex;
+    /* justify-items: center; */
+    width: 393px;
+    height: 30px;
+}
